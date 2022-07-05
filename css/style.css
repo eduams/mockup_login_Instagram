@@ -1,0 +1,101 @@
+body{
+    display: flex;
+    justify-content:space-around;
+    padding: 0px 0;
+    background-color: #f3f3f3;
+    font-family: Helvetica;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction:row;
+    inline-size: 800px;
+}
+.app-preview{
+    flex-basis: 0;
+    flex-grow: 2;
+    width: 300px;
+    height: 660px;
+    object-fit: cover;
+}
+.login{
+    flex-grow: 1;
+    margin: 100px 60px;
+    justify-content: space-around;
+}
+.login-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    outline: 2px #dbdbdb solid;
+    background-color: white;
+}
+.login-box2{
+    margin-top: 10px;
+    text-align: center;
+    outline: 2px #dbdbdb solid;
+    background-color: white;
+    padding: 1%;
+}
+.login-box-logo{
+    flex-basis: 100%;
+    margin: 30px 30px;
+    margin-bottom: -5px;
+    text-align: center;
+    flex-grow: 2;
+}
+.login-box-item{
+    flex-basis: 100%;
+    text-align: center;
+    flex-grow: 2;
+    margin: 15px 15px;
+}
+.button {
+    background-color: #0095f6; /* Green */
+    margin: -5px -5px;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+  }  
+.button a{
+    color: white;
+    text-decoration: none;
+  }
+a{
+    color: #1fa1f6;
+    text-decoration: none;
+}
+.login-box-item img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.text{
+    width: 100%;
+    text-align: center;
+}
+.appstore{
+    width: 100px;
+}
+.login-box-item2{
+    flex-basis: 100%;
+    text-align: center;
+    flex-grow: 2;
+    margin: 15px 15px;
+}
+.login-box-item2 img{
+    width: 125px;
+    height: 42px;
+}
+@media (max-width: 800px){
+
+    .app-preview{
+        display: none;
+    }
+
+}
